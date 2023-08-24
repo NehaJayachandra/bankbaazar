@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Pin Code</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="../images/bbl.jpg">
+<style>
+    .dropdown:hover .dropdown-menu{
+        display: block;
+      }
+      .dropdown {
+        position: relative;
+      }
+      .dropdown-menu {
+        position: absolute;
+        top: 100%; 
+        right: 0;
+        display: none;
+        background-color: white; 
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      #pinInput{
+        width: 40%;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 8px;
+        box-shadow: 0 0 5px;
+      }
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container" style="margin-left: 0%;">
+        <img src="../images/banklogo.png" alt="Image" width="300px" height="50px" >
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="dropdown">
+            <a class="btn btn-primary dropdown-toggle"  id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                LOANS
+              </a>
+            <ul class='dropdown-menu' aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item"></a>Personal Loan</a></li>
+                <li><a class="dropdown-item"></a>Home Loan</a></li>
+                <li><a class="dropdown-item"></a>Car Loan</a></li>
+                <li><a class="dropdown-item"></a>Two Wheeler Loan</a></li>
+                <li><a class="dropdown-item"></a>Used Car Loan</a></li>
+                <li><a class="dropdown-item"></a>Education Loan</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CARD
+              </a>
+              <ul class='dropdown-menu' aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item"></a>Credit Cards</a></li>
+                <li><a class="dropdown-item"></a>Debit Cards</a></li>
+            </ul>
+          </li>
+          <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle"  id="dropdownMenuButton" type='button' data-bs-toggle="dropdown" aria-expanded="false">
+              INVESTMENTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" >Mutual Funds</a></li>
+              <li><a class="dropdown-item" >Fixed Deposit</a></li>
+              <li><a class="dropdown-item" >Savings Account</a></li>
+              <li><a class="dropdown-item" >Gold Rate</a></li>
+              <li><a class="dropdown-item" >Silver Rate</a></li>
+              <li><a class="dropdown-item" >Best RD Interest Rates</a></li>
+              <li><a class="dropdown-item" >National Pension Scheme</a></li>
+            </ul>    
+          </div>
+          <img src="../images/timer.gif alt="creditcardscore">
+          <div style="padding-left: 40%;">
+          <a class="btn btn-primary ml-auto">Track_Application</a>
+        </div>
+        <a class="btn btn-primary ml-auto">Login</a>
+        <div class="dropdown" >
+            <a class="btn btn-primary dropdown-toggle"  id="dropdownMenuButton" type='button'data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="material-symbols-outlined" style="color:white;">menu</i>
+            </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" >Credit Cards</a></li>
+            <li><a class="dropdown-item" >Home Loans</a></li>
+            <li><a class="dropdown-item" >Personal Loans</a></li>
+            <li><a class="dropdown-item" >Other Loans</a></li>
+            <li><a class="dropdown-item" >Calculators</a></li>
+            <li><a class="dropdown-item" >Investments</a></li>
+            <li><a class="dropdown-item" >Credit Scores</a></li>
+            <li><a class="dropdown-item" >Govt. Utility Documents</a></li>
+            <li><a class="dropdown-item" >Insurance</a></li>
+            <li><a class="dropdown-item" >Covid Money Guide</a></li>
+            <li><a class="dropdown-item" >Resources</a></li>
+        </ul>
+        </div>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+  <div style="margin-left: 8%;">
+    <a href="bankbazar1.html">Home|</a>
+    <a href="#">Credit Cards|</a>
+    <a href="#">RBL Bank Credit Cards|</a>
+    <a href="bankbazaar2.html"  style="color: forestgreen;">RBL Bank BankBazaar SaveMax Credit Card</a>
+  <h5 style="color: dodgerblue;">RBL Bank BankBazaar SaveMax Credit Card</h5>
+</div>
+  <div class="bg-primary" style="color: aliceblue;">
+  <h3 class="d-flex align-items-center justify-content-center" > Top RBL BANK Credit Cards</h3>
+</div>
+<p><br></p>
+<div style="color: forestgreen;">
+    <h3 class="d-flex align-items-center justify-content-center"> Enter your current residential pincode</h3>
+</div>
+<div class="d-flex align-items-center justify-content-center">
+<input  type="password" id="pinInput" maxlength="" pattern="[0-9]{6}" placeholder="Please enter the PIN code" required>
+</div>
+<p><br></p>
+<p><br></p>
+<div class="col-12 text-center mt-3">
+    <label for="pincode">
+    <button class="btn btn-primary">Continue</button>
+</label>
+  </div>

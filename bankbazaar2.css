@@ -1,0 +1,104 @@
+.square {
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .square p {
+    margin-top: 10px;
+  }
+  .square::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.3); 
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+  }
+  .square:hover::before {
+    opacity: 1; 
+  }
+  .square:hover p {
+    color: blue;
+  }
+  .square-container {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .table-bordered {
+     border-color: rgb(16, 14, 14);
+    }
+    ul {
+        list-style-position: inside; 
+        padding-left: 30px; 
+      }
+      .custom-button {
+        width: 300px;
+      }
+      .container1 {
+        display: flex; 
+        background-color:#333; ;
+      }
+      .column-item {
+        color: #867e7e;
+        padding: 5px; 
+        flex: 1;
+        margin: 10px; 
+        box-sizing: border-box;
+      }
+      .column-item p {
+        font-size: 12px; 
+      }
+      .footer{
+      background-color: #333;
+      color: #8f8787;
+      }
+      .dropdown:hover .dropdown-menu{
+        display: block;
+      }
+      .dropdown {
+        position: relative;
+      }
+      .dropdown-menu {
+        position: absolute;
+        top: 100%; 
+        right: 0;
+        display: none;
+        background-color: white; 
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      .circular-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+      
+      
+      
+      

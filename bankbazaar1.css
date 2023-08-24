@@ -1,0 +1,139 @@
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    right: 0;
+    display: none;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.sec1-bg{
+    height: 100%;
+}
+.sec1-text{
+    margin-top: 7%;
+}
+.sec1-last-text{
+    margin-left: 7vw;
+}
+.sec1-bottom{
+    height: 7vh;
+    background: #116a9e;
+}
+.cards{
+    height: 15vh;
+}
+.cards-text{
+    font-size: 0.9rem;
+}
+.cards-icon{
+    color: #116a9e;
+}
+.latest-credit-score{
+    height: auto;
+    background-color: #f3f5f5;
+    width: 100%;
+    border-bottom: 4px solid #eee;
+    
+}
+.latest-credit-score-text{
+    line-height: 17px;
+}
+.cardss{
+    line-height: 15px;
+    height: 230px;
+    width: 263px;
+}
+.card-text {
+    color: #858e99;
+    font-size: 0.9em;
+}
+.card-title {
+    color: #006a9e;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.card-section-article{
+    margin: 0px 170px;
+}
+.why-bb{
+    height: 95vh;
+}
+.why-bb-bottom{
+    height: 10vh;
+    background: #116a9e;
+    margin-top: 0;
+}
+.footer-sec1{
+    background: #080808ce;
+    height: 10vh;
+    width: 100%;
+}
+.footer-nav{
+    background: #080808c4;
+}
+
+li{
+    font-size: small;
+}
+ul{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.footer-img{
+    background: #080808c4;
+}
+.footer-img-img{
+    margin-left: 20vw;
+    margin-top: 20px;
+}
+.footer-sec-2{
+    font-size: smaller;
+    background: #000;
+}
+.zoomable-image {
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.zoomable-image:hover img {
+    transform: scale(1.1);
+}
+.sec1-new-image{
+    position: absolute;
+    top: 0;
+    background: #3232327e;
+    right: 100px;
+}
+.sec1-bg {
+    position: relative;
+}
+
+#left-button {
+    position: absolute;
+    top: 70%;
+    left: 35px;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #0ca84d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#right-button {
+    position: absolute;
+    top: 48%;
+    right: 35px;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #0ca84d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+
